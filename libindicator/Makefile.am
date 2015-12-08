@@ -68,7 +68,8 @@ libindicator_la_CFLAGS = \
 	-Wall -Werror -Wno-error=deprecated-declarations
 
 libindicator_la_LIBADD = \
-	$(LIBINDICATOR_LIBS)
+	$(LIBINDICATOR_LIBS) \
+	$(LIBM)
 
 libindicator_la_LDFLAGS = \
 	$(COVERAGE_LDFLAGS) \
