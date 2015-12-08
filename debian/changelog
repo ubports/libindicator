@@ -1,3 +1,9 @@
+libindicator (12.10.2+16.04.20151208-0ubuntu1) xenial; urgency=medium
+
+  * Add -lm via LDADD to resolve FTBFS in Xenial
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 08 Dec 2015 11:30:05 +0000
+
 libindicator (12.10.2+14.10.20140922-0ubuntu1) utopic; urgency=low
 
   [ Marco Trevisan (Treviño) ]
