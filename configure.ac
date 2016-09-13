@@ -70,6 +70,9 @@ AM_CONDITIONAL(USE_GTK3, [test "x$with_gtk" = x3])
 LT_LIB_M
 AC_SUBST(LIBM)
 
+SYSTEMD_USERDIR=`$PKG_CONFIG --variable=systemduserunitdir systemd`
+AC_SUBST(SYSTEMD_USERDIR)
+
 ##############################
 # Custom Junk
 ##############################
@@ -152,6 +155,7 @@ AC_SUBST(COVERAGE_LDFLAGS)
 
 AC_CONFIG_FILES([
 Makefile
+data/Makefile
 libindicator/Makefile
 libindicator/indicator-0.4.pc.in
 libindicator/indicator3-0.4.pc.in

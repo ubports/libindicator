@@ -1,3 +1,10 @@
+libindicator (16.10.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * indicator-common: Add a package to hold shared systemd targets
+    for systemd user session.
+
+ -- Ted Gould <ted@ubuntu.com>  Mon, 18 Jul 2016 17:53:27 +0200
+
 libindicator (12.10.2+16.04.20151208-0ubuntu1) xenial; urgency=medium
 
   * Add -lm via LDADD to resolve FTBFS in Xenial

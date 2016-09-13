@@ -86,3 +86,11 @@ Description: Tools for libindicator
  Tools useful for developers of applications using indicators.
  .
  This package contains files that are needed to build applications.
+
+Package: indicator-common
+Section: libs
+Architecture: all
+Description: indicator shared files
+ A package that has files needed to work with the indicators. This
+ includes the systemd indicators-pre.target.
+
