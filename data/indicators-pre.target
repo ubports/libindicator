@@ -1,2 +1,2 @@
 [Unit]
-Description=All indicator hosts should bind to this target to insure that the indicators will start after they've already started
+Description=Target representing the lifecycle of the indicators. Each indicator should be bound to it in its individual service file.
