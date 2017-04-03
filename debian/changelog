@@ -1,3 +1,9 @@
+libindicator (16.10.1) UNRELEASED; urgency=medium
+
+  * Bump version, to fix stable-phone-overlay PPA versioning
+
+ -- Michael Terry <mterry@ubuntu.com>  Mon, 03 Apr 2017 14:27:55 -0400
+
 libindicator (16.10.0+16.10.20160913-0ubuntu1) yakkety; urgency=medium
 
   [ Ted Gould ]
