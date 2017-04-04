@@ -1,5 +1,6 @@
 [Unit]
 Description=Target representing the lifecycle of the indicators. Each indicator should be bound to it in its individual service file.
+PartOf=graphical-session.target
 
 [Install]
 # Old name for this target, kept for compatibility
