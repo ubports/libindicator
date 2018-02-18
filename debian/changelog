@@ -1,4 +1,4 @@
-libindicator (16.10.1+ubports1) UNRELEASED; urgency=medium
+libindicator (16.10.1+ubports1) bionic; urgency=medium
 
   * Update Jenkinsfile for xenial
 
