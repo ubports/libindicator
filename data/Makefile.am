@@ -1,4 +1,4 @@
-systemd_DATA = indicators-pre.target
+systemd_DATA = indicators.target
 systemddir = $(SYSTEMD_USERDIR)
 
 EXTRA_DIST = $(systemd_DATA)

@@ -10,6 +10,12 @@ libindicator (16.10.1+ubports) vivid; urgency=medium
 
  -- UBports auto importer <infra@ubports.com>  Sun, 23 Jul 2017 17:51:09 +0200
 
+libindicator (16.10.1) UNRELEASED; urgency=medium
+
+  * Bump version, to fix stable-phone-overlay PPA versioning
+
+ -- Michael Terry <mterry@ubuntu.com>  Mon, 03 Apr 2017 14:27:55 -0400
+
 libindicator (16.10.0+16.10.20160913-0ubuntu1) yakkety; urgency=medium
 
   [ Ted Gould ]
@@ -106,7 +112,7 @@ libindicator (12.10.2+14.04.20131125-0ubuntu1) trusty; urgency=low
 
 libindicator (12.10.2+13.10.20130913-0ubuntu2) saucy; urgency=low
 
-  * libindicator/indicator-ng.c: backport fix for indicator icons not 
+  * libindicator/indicator-ng.c: backport fix for indicator icons not
     updating sometimes (lp: #1220204)
 
  -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 18 Oct 2013 13:15:30 -0400
@@ -306,7 +312,7 @@ libindicator (12.10.2daily13.02.15-0ubuntu1) raring; urgency=low
     - Use calls to dh_install per-package to use the right source
       directories.
     - Add and export DPKG_GENSYMBOLS_CHECK_LEVEL.
-  * debian/compat: bump compat level to 9. 
+  * debian/compat: bump compat level to 9.
   * debian/*.install: drop the debian/tmp/gtk* path elements and update for
     multiarch.
 
@@ -321,7 +327,7 @@ libindicator (12.10.2daily13.02.15-0ubuntu1) raring; urgency=low
 libindicator (12.10.1-0ubuntu1) quantal; urgency=low
 
   * New upstream release.
-    - remove the 'cloak' code that caused libreoffice's menubars in unity to be 
+    - remove the 'cloak' code that caused libreoffice's menubars in unity to be
       greyed out after opening any dialog or switching windows (LP: #1045372)
 
  -- Ken VanDine <ken.vandine@canonical.com>  Wed, 19 Sep 2012 16:00:14 -0400
@@ -459,7 +465,7 @@ libindicator (0.4.90-0ubuntu1) precise; urgency=low
   * debian/rules
     - Updated shlibs
   * debian/libindicator3-dev.install
-    - include headers 
+    - include headers
 
  -- Ken VanDine <ken.vandine@canonical.com>  Tue, 24 Jan 2012 12:13:51 -0500
 
@@ -483,7 +489,7 @@ libindicator (0.4.1-0ubuntu1) oneiric; urgency=low
 libindicator (0.4.0-0ubuntu1) oneiric; urgency=low
 
   * New upstream release.
-    * Add libm to linking to fix FTBFS (LP: #840514) 
+    * Add libm to linking to fix FTBFS (LP: #840514)
 
  -- Ted Gould <ted@ubuntu.com>  Mon, 19 Sep 2011 21:54:32 -0500
 
@@ -498,7 +504,7 @@ libindicator (0.3.93-0ubuntu2) oneiric; urgency=low
 
 libindicator (0.3.93-0ubuntu1) oneiric; urgency=low
 
-  * debian/rules: 
+  * debian/rules:
     - update the translations template
 
   [ Ted Gould ]
@@ -633,7 +639,7 @@ libindicator (0.3.18-0ubuntu1) natty; urgency=low
 
   * New upstream release.
     * Adding a signal for scrolling that includes the entry
-  * debian/rules: Updating shlibs 
+  * debian/rules: Updating shlibs
 
  -- Ted Gould <ted@ubuntu.com>  Thu, 27 Jan 2011 15:31:04 -0600
 
@@ -655,18 +661,18 @@ libindicator (0.3.16-0ubuntu1) natty; urgency=low
     version of the library.
 
   [ Ken VanDine ]
-  * debian/control: 
+  * debian/control:
     - libindicator2 Breaks libindicator1
 
  -- Ted Gould <ted@ubuntu.com>  Thu, 13 Jan 2011 12:49:25 -0600
 
 libindicator (0.3.15-0ubuntu2) natty; urgency=low
 
-  * debian/control: 
+  * debian/control:
     - dropped libindicator-debugenv package
   * -debian/libindicator-debugenv.install
   * debian/libindicator-tools.install
-    - Install indicator-loader and indicator-loader3 in the 
+    - Install indicator-loader and indicator-loader3 in the
     libindicator-tools package (means it depends on both gtk2 and gtk3)
     - Install sample xsession env in pkgdatadir for developer use
   * tools/Makefile.am
@@ -726,14 +732,14 @@ libindicator (0.3.12-0ubuntu1) maverick; urgency=low
 
   * New upstream release.
     * Removing a g_error that was breaking Unity on failed icons
-  * dropping workaround-icon-crash.patch: 
+  * dropping workaround-icon-crash.patch:
 
  -- Ted Gould <ted@ubuntu.com>  Wed, 18 Aug 2010 11:05:51 -0500
 
 libindicator (0.3.11-0ubuntu2) maverick; urgency=low
 
-  * workaround-icon-crash.patch: 
-    - change from Mikkel Kamstrup Erlandsen to workaround a crasher in the 
+  * workaround-icon-crash.patch:
+    - change from Mikkel Kamstrup Erlandsen to workaround a crasher in the
        new version
   * debian/control:
     - updated the gtk build requirement
@@ -832,7 +838,7 @@ libindicator (0.3.6-0ubuntu1) lucid; urgency=low
 
   * Upstream release 0.3.6
     * Adding in scroll signals for the indicators
-  * debian/rules: Updating shlibs 
+  * debian/rules: Updating shlibs
 
  -- Ted Gould <ted@ubuntu.com>  Thu, 18 Mar 2010 11:10:20 -0500
 
@@ -893,7 +899,7 @@ libindicator (0.3.0-0ubuntu1) lucid; urgency=low
     - Added description for libindicator-tools
 
   [Ted Gould]
-  * Upstream 0.3.0 Release 
+  * Upstream 0.3.0 Release
     * Adds a new tool to load indicators from the command line.
     * Adds an object for loading indicators.
     * Changes the indicator interface to be object based.
@@ -951,7 +957,7 @@ libindicator (0.2.0~bzr325-0ubuntu1) karmic; urgency=low
 
   [ Ken VanDine ]
   * debian/control:
-    - Set both Vcs-Bzr and Vcs-Bzr-Browser, with ~ubuntu-desktop 
+    - Set both Vcs-Bzr and Vcs-Bzr-Browser, with ~ubuntu-desktop
 
   [ Martin Pitt ]
   * Flush changelog.
