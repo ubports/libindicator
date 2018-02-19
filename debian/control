@@ -93,4 +93,3 @@ Architecture: all
 Description: indicator shared files
  A package that has files needed to work with the indicators. This
  includes the systemd indicators-pre.target.
-

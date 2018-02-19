@@ -40,10 +40,9 @@ override_dh_install:
 	rm -f debian/tmp/gtk2/usr/lib/systemd/user/indicators-pre.target
 	dh_install -plibindicator7 --fail-missing --sourcedir=debian/tmp/gtk2
 	dh_install -plibindicator-dev --fail-missing --sourcedir=debian/tmp/gtk2
-	dh_install -plibindicator3-tools --fail-missing --sourcedir=debian/tmp/gtk2
+	dh_install -plibindicator3-tools --fail-missing --sourcedir=debian/tmp/gtk3
 	dh_install -plibindicator3-7 --fail-missing --sourcedir=debian/tmp/gtk3
 	dh_install -plibindicator3-dev --fail-missing --sourcedir=debian/tmp/gtk3
-	dh_install -plibindicator3-tools --fail-missing --sourcedir=debian/tmp/gtk3
 	dh_install -pindicator-common --fail-missing --sourcedir=debian/tmp/gtk3
 
 override_dh_makeshlibs:
